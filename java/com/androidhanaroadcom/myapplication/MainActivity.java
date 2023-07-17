@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             String url = request.getUrl().toString();
             // 들어갈 url에 특별한 condition이 있는지 확인. 있으면 따로 실행
             if (url.contains("webzine1.jsp")) {
-                // Open the URL in a new browser tab
+                // Open the URL in a new browser tab.
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
                 return true;
