@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             } else {
-                // Load the URL in the WebView
+                // Load the URL in the WebView.
                 view.loadUrl(url);
                 return false;
             }
