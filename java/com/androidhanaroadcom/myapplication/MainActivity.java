@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main); // layout에 있는 activity_main.xml파일을 가져온다
         webView = findViewById(R.id.webview); // 여기있는 webview를 layout에 있는 webview로 업데이트
         webView.setWebViewClient(new MywebClient()); // webview에 이벤트들을 담을 MywebClient만듬
-        webView.loadUrl("https://hanaro12.cafe24.com/"); // website 주소 가져오기
+        webView.loadUrl("https://example.com/"); // website 주소 가져오기
         WebSettings webSettings = webView.getSettings(); // Get the WebSettings for the WebView
         webSettings.setJavaScriptEnabled(true); // Enable JavaScript in the WebView
     }
